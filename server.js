@@ -10,7 +10,7 @@ app.use(express.static("public"));
 
 const client = new OpenAI({
   apiKey: process.env.FUTUREX_API_KEY,
-  baseURL: "https://api.futurexailab.com/v1"
+  baseURL: "https://api.futurexailab.com"
 });
 
 let chatHistory = [
